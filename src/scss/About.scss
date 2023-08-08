@@ -1,7 +1,7 @@
 @import './navVariables.scss';
 
 .about-page {
-  height:100vh;
+  display: block;
   padding-top: $header-height;
   color: white;
   font-size: 1.25em;
@@ -28,6 +28,7 @@
 
 .about-boxes {
   display: flex;
+  height: auto;
   background: radial-gradient(
     circle at 24.1% 68.8%,
     rgb(50, 50, 50) 0%,

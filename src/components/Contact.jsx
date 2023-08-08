@@ -9,9 +9,6 @@ import Kirksey from "../Images/Kirksey.PNG"
 function Contact() {
 
   return (
-
-    
-
     <div className="Contact">
 
       <h1 class="header">The Team</h1>

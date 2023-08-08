@@ -1,15 +1,10 @@
 .Contact {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  height: 1000px;
   background:radial-gradient(
     circle at 24.1% 68.8%,
     rgb(50, 50, 50) 0%,
     rgb(0, 0, 0) 99.4%
   );
-
   .header {
     color: white;
     font-size: 40px;
@@ -45,8 +40,10 @@
       margin-bottom: 5%;
       //width: 80%;
       //height: 45%;
-      min-height: 45%;
-      min-width: 45%;
+      width: 80%;
+      height: 80%;
+      min-height: 20%;
+      min-width: 20%;
       padding: 5px;
       justify-content: center;
       align-items: flex-start;
