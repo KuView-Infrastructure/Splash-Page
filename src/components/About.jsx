@@ -1,6 +1,6 @@
 import React from 'react';
 import AboutCard from './AboutCard';
-
+import {useRef} from 'react';
 import installgif from '../gifs/install.gif'
 import customizegif from '../gifs/customize.gif'
 import registergif from '../gifs/register.gif'
@@ -20,7 +20,7 @@ function About(props) {
 
   return (
     <div className='about-page'>
-      <div className='about-intro'>
+      <div className='about-intro' id='home'>
         <div>
           <h1>Monitor your Kubernetes Cluster, right here in your browser.</h1>
         </div>
@@ -30,7 +30,7 @@ function About(props) {
       </div>
       <div className='about-boxes'>
         <div>
-          <h1 className='headers'>Features</h1>
+          <h1 className='headers' id='Features'>Features</h1>
         </div>
         {boxes}
       </div>

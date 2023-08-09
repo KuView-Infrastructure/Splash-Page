@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import styled from 'styled-components';
 import styles from '../scss/Navbar.module.scss';
 import { BiMenuAltRight } from 'react-icons/bi';
 import { AiOutlineCloseSquare } from 'react-icons/ai';
@@ -9,22 +8,34 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 function Navbar(props) {
   const [menuOpen, setMenuOpen] = useState(false);
   const menuToggler = () => setMenuOpen((p) => !p);
-
+  
   return (
-    <div data-testid='navbar-element' className={styles.header}>
+    <div className={styles.header}>
       <div className={styles.header__content}>
         <div>
-          <span className={styles.logo}>KuView</span>
+          <a className={styles.logo} href='#home' onClick={e => {
+  let features = document.getElementById("#home");
+  e.preventDefault();  // Stop Page Reloading
+  home && home.scrollIntoView({ behavior: 'smooth' });
+  }}>KuView</a>
         </div>
         <div>
           <nav
             className={`${styles.nav} ${menuOpen ? styles[`nav__open`] : ''}`}
-            data-testid='menu'
+            
           >
-            <a className={styles.nav__item} href={'/login'}>
+            <a className={styles.nav__item} href='#Features' onClick={e => {
+  let features = document.getElementById("Features");
+  e.preventDefault();  // Stop Page Reloading
+  features && features.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }} >
               Features
             </a>
-            <a className={styles.nav__item} href={'/contact'}>
+            <a className={styles.nav__item} href='#the-team' onClick={e => {
+  let team = document.getElementById("the-team");
+  e.preventDefault();  // Stop Page Reloading
+  team && team.scrollIntoView({ behavior: 'smooth' });
+  }} >
               Team
             </a>
             <div className={styles.nav__button__container}>

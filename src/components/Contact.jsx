@@ -12,7 +12,7 @@ function Contact() {
     <div className="Contact">
 
       <div>
-        <h1 className='the-team'>The Team</h1>
+        <h1 className='the-team' id='the-team'>The Team</h1>
       </div>
       <div className='main-container'>
         <ContactCard

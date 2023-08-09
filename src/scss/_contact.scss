@@ -1,6 +1,7 @@
 .Contact {
   display: flex;
   flex-direction: column;
+  height: 100vh;
   background:radial-gradient(
     circle at 24.1% 68.8%,
     rgb(50, 50, 50) 0%,
@@ -45,7 +46,7 @@
     margin: 0.75rem;
     max-width: 211px;
     width: 411px;
-    height: 50%;
+    height: auto;
     min-height: 40%;
     overflow: hidden;
     background-color: #1f1f1f;
