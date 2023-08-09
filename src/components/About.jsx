@@ -28,8 +28,8 @@ function About(props) {
           Here at KuView, we have created an app for visualizing and providing real-time metric monitoring for your Kubernetes cluster.
         </div>
       </div>
-      <div className='about-boxes'>
-        <div id='Features'>
+      <div className='about-boxes' id='Features'>
+        <div>
           <h1 className='headers'>Features</h1>
         </div>
         {boxes}

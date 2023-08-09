@@ -9,10 +9,9 @@ import Kirksey from "../Images/Kirksey.PNG"
 function Contact() {
 
   return (
-    <div className="Contact">
-
-      <div>
-        <h1 className='the-team' id='the-team'>The Team</h1>
+    <div className="Contact" id='the-team'>
+      <div >
+        <h1 className='the-team'>The Team</h1>
       </div>
       <div className='main-container'>
         <ContactCard

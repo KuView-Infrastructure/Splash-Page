@@ -13,6 +13,7 @@ module.exports = {
     path: path.resolve(__dirname, 'build'),
     filename: 'bundle.js',
     publicPath: './'
+    // delete the . in the above ./ to get it to work in dev
   },
 
   plugins: [
