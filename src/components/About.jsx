@@ -29,8 +29,8 @@ function About(props) {
         </div>
       </div>
       <div className='about-boxes'>
-        <div>
-          <h1 className='headers' id='Features'>Features</h1>
+        <div id='Features'>
+          <h1 className='headers'>Features</h1>
         </div>
         {boxes}
       </div>
