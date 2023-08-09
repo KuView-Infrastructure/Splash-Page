@@ -42,7 +42,7 @@ module.exports = {
       },
       {
         test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
-        type: 'asset/resource'
+        type: 'asset/resource',
       },
     ],
   },
@@ -52,7 +52,7 @@ module.exports = {
     port: '8080',
     static: {
       directory: path.resolve(__dirname, 'build'),
-      publicPath: '/',
+      publicPath: './',
     },
     historyApiFallback: true,
     proxy: {
