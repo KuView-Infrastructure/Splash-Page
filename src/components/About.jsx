@@ -1,6 +1,6 @@
 import React from 'react';
 import AboutCard from './AboutCard';
-
+import {useRef} from 'react';
 import installgif from '../gifs/install.gif'
 import customizegif from '../gifs/customize.gif'
 import registergif from '../gifs/register.gif'
@@ -20,7 +20,7 @@ function About(props) {
 
   return (
     <div className='about-page'>
-      <div className='about-intro'>
+      <div className='about-intro' id='home'>
         <div>
           <h1>Monitor your Kubernetes Cluster, right here in your browser.</h1>
         </div>
@@ -28,7 +28,7 @@ function About(props) {
           Here at KuView, we have created an app for visualizing and providing real-time metric monitoring for your Kubernetes cluster.
         </div>
       </div>
-      <div className='about-boxes'>
+      <div className='about-boxes' id='Features'>
         <div>
           <h1 className='headers'>Features</h1>
         </div>

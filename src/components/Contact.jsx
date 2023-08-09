@@ -8,8 +8,8 @@ import Kirksey from '../Images/Kirksey.png';
 
 function Contact() {
   return (
-    <div className='Contact'>
-      <div>
+    <div className="Contact" id='the-team'>
+      <div >
         <h1 className='the-team'>The Team</h1>
       </div>
       <div className='main-container'>
