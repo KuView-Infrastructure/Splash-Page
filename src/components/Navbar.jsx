@@ -25,7 +25,7 @@ function Navbar(props) {
               Features
             </a>
             <a className={styles.nav__item} href={'/contact'}>
-              Contact
+              Team
             </a>
             <div className={styles.nav__button__container}>
               <Button />
