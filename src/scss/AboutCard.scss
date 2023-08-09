@@ -8,7 +8,7 @@
   border-radius: 20px;
   border: 1px solid $primary;
   margin-top: 60px;
-  min-width: 410px;
+  // min-width: 410px;
   
   div {
     display: flex;
@@ -37,6 +37,16 @@
     @media(max-width: 800px) {
       p{
         font-size: 0.9em;
+      }
+    }
+    @media(max-width: 600px) {
+      p{
+        font-size: 0.6em;
+      }
+    }
+    @media(max-width: 600px) {
+      p{
+        font-size: 0.6em;
       }
     }
   }
