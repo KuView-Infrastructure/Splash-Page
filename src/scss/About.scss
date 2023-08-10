@@ -38,5 +38,9 @@
   align-items: center;
 
   padding: 3em;
-  min-width: 410px;
+  // min-width: 410px;
+  @media(max-width: 600px) {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
