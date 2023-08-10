@@ -11,7 +11,9 @@
   padding: 3rem;
   .the-team{
     text-align: center;
+    margin-top: 1rem;
     margin-bottom: 3rem;
+    font-size: 40px;
   }
   .header {
     font-size: 40px;
@@ -52,8 +54,8 @@
     // padding: 2px;
     // margin-top: 75px;
     margin: 0.75rem;
-    max-width: 211px;
-    width: 411px;
+    max-width: 300px;
+    width: 300px;
     // height: auto;
     // min-height: 40%;
     overflow: hidden;
@@ -133,7 +135,7 @@
   .Contact{
     padding:1rem;
     .card-container {
-      max-width: 300px;
+      max-width: 325px;
     }
     .card-img{
       width: 90%;
@@ -149,6 +151,12 @@
       display: inline-block;
       vertical-align: middle;
       box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    }
+    .the-team{
+      text-align: center;
+      margin-top: 40px;
+      margin-bottom: 3rem;
+      font-size: 40px;
     }
   }
 }
